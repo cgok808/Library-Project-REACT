@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import Rating from './ui/Rating';
-import Price from './ui/Price';
+import Rating from './Rating';
+import Price from './Price';
 
 const Book = ({ book }) => {
     const [img, setImg] = useState();

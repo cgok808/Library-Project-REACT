@@ -1,6 +1,6 @@
 import { books } from "../../data";
 import React from "react";
-import Book from "../Book";
+import Book from "./Book";
 
 const BestBooks = ({ id }) => {
   return (
