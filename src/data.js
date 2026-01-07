@@ -1,97 +1,111 @@
 // FAKE DATA
+
+import image1 from "./assets/image1.jpg";
+import image2 from "./assets/image2.jpg";
+import image3 from "./assets/image3.jpg"; 
+import image4 from "./assets/image4.jpg";
+import image5 from "./assets/image5.jpg";
+import image6 from "./assets/image6.jpg"; 
+import image7 from "./assets/image7.jpg";
+import image8 from "./assets/image8.jpg";
+import image9 from "./assets/image9.jpg";
+import image10 from "./assets/image10.jpg";
+import image11 from "./assets/image11.jpg";
+import image12 from "./assets/image12.jpg";
+
 export const books = [
   {
     id: 1,
-    title: "Crack the Coding Interview",
-    url: "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    title: "The Castle of Cagliostro",
+    url: image1,
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
   },
   {
     id: 2,
-    title: "Atomic Habits",
-    url: "https://covers.openlibrary.org/b/id/10958382-L.jpg",
+    title: "Kiki's Delivery Service",
+    url: image2,
     originalPrice: 39,
     salePrice: null,
     rating: 5,
   },
   {
     id: 3,
-    title: "Can't Hurt Me",
-    url: "https://covers.openlibrary.org/b/id/10425061-L.jpg",
+    title: "The Boy And The Heron",
+    url: image3,
     originalPrice: 29,
     salePrice: null,
     rating: 5,
   },
   {
     id: 4,
-    title: "Deep Work",
-    url: "https://covers.openlibrary.org/b/id/10088428-L.jpg",
+    title: "Nausicaä of the Valley of the Wind",
+    url: image4,
     originalPrice: 44,
     salePrice: 19,
     rating: 4.5,
   },
   {
     id: 5,
-    title: "The 10X Rule",
-    url: "https://covers.openlibrary.org/b/id/9978588-L.jpg",
+    title: "Porco Rosso",
+    url: image5,
     originalPrice: 32,
     salePrice: null,
     rating: 5,
   },
   {
     id: 6,
-    title: "Sell Or Be Sold",
-    url: "https://covers.openlibrary.org/b/id/7737110-L.jpg",
+    title: "Princess Mononoke",
+    url: image6,
     originalPrice: 70,
     salePrice: 12.5,
     rating: 5,
   },
   {
     id: 7,
-    title: "Rich Dad Poor Dad",
-    url: "https://covers.openlibrary.org/b/id/2380224-L.jpg",
+    title: "The Wind Rises",
+    url: image7,
     originalPrice: 11,
     salePrice: 10,
     rating: 4,
   },
   {
     id: 8,
-    title: "Cashflow Quadrant",
-    url: "https://covers.openlibrary.org/b/id/1954899-L.jpg",
+    title: "The Secret World of Arrietty",
+    url: image8,
     originalPrice: 38,
     salePrice: 17.95,
     rating: 4.5,
   },
   {
     id: 9,
-    title: "48 Laws of Power Summary",
-    url: "https://covers.openlibrary.org/b/id/8906626-L.jpg",
+    title: "Ponyo",
+    url: image9,
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4.5,
   },
   {
     id: 10,
-    title: "The 5 Second Rule",
-    url: "https://covers.openlibrary.org/b/id/8114155-L.jpg",
+    title: "Howl's Moving Castle",
+    url: image10,
     originalPrice: 40,
     salePrice: null,
     rating: 5,
   },
   {
     id: 11,
-    title: "How to Win Friends & Influence People",
-    url: "https://covers.openlibrary.org/b/id/7895280-L.jpg",
+    title: "My Neighbor Totoro",
+    url: image11,
     originalPrice: 30,
     salePrice: 20,
     rating: 5,
   },
   {
     id: 12,
-    title: "Mastery",
-    url: "https://covers.openlibrary.org/b/id/8479576-L.jpg",
+    title: "Spirtied Away",
+    url: image12,
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
